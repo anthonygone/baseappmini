@@ -5,7 +5,7 @@ import { CounterDisplay } from '@/components/CounterDisplay'
 export default function Home() {
   return (
     <main className="min-h-screen flex flex-col items-center justify-center gap-8 p-8">
-      <h1 className="text-4xl font-bold">Base Mini App</h1>
+      <h1 className="text-4xl font-bold">Base Mini app</h1>
       <ConnectWallet />
       <CounterDisplay />
       {/* Add increment button here */}
