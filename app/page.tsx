@@ -1,5 +1,5 @@
 import { ConnectWallet } from '@/components/ConnectWallet'
-import { CounterDisplay } from '@/component/CounterDisplay'
+import { CounterDisplay } from '@/components/CounterDisplay'
 // Import Increment button too
 
 export default function Home() {
