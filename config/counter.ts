@@ -1,4 +1,4 @@
-export const COUNTER_ADDRESS = '0xYourDeployedContractAddres' as const
+export const COUNTER_ADDRESS = '0xYourDeployedContractAddress' as const
 
 export const counterAbi = [
   { type: 'function', name: 'number', inputs: [], outputs: [{ type: 'uint256' }], stateMutability: 'view' },
