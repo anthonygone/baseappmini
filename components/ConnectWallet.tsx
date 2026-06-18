@@ -1,6 +1,6 @@
 'use client'
 
-import { useAccount, useConnect, Disconnect } from 'wagmi'
+import { useAccount, useConnect, useDisconnect } from 'wagmi'
 
 export function ConnectWallet() {
   const { address, isConnected, isConnecting } = useAccount()
