@@ -7,7 +7,7 @@ export function ConnectWallet() {
   const { connect, connectors } = useConnect()
   const { disconnect } = useDisconnect()
 
-  if (!isConnected) {
+  if (!isConnect) {
     return (
       <div className="flex flex-col gap-2">
         {connectors.map((connector) => (
