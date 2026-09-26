@@ -1,4 +1,4 @@
-'use client'
+'use clie'
 
 import { useAccount, useConnect, useDisconnect } from 'wagmi'
 
